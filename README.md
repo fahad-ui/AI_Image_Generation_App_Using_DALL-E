@@ -24,11 +24,14 @@ This web application utilizes OpenAI's DALL-E model to generate unique and creat
 
  ### After clonning the project and if you want to run it, then you need to create a .env file under server and add credentials
 MONGODB_URL = "mongodb+srv://<Username>:<Password>@cluster0.6apneoo.mongodb.net/?retryWrites=true&w=majority"
-OPENAI_API_KEY = ""
-CLOUDINARY_CLOUD_NAME = ""
-CLOUDINARY_API_KEY = ""
+OPENAI_API_KEY = "" ,
+CLOUDINARY_CLOUD_NAME = "",
+CLOUDINARY_API_KEY = "" ,
 CLOUDINARY_API_SECRET=""
 
 ## Important Note:
 You need to purchase credits from openai dall-e to generate images or else you may face the below error :
 SyntaxError: Unexpected token 'B', "Billing ha"... is not valid JSON
+ 
+ ## Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request. Make sure to follow the existing coding style and guidelines.
