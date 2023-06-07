@@ -22,5 +22,13 @@ This web application utilizes OpenAI's DALL-E model to generate unique and creat
 3. Wait for the AI model to process your request and generate an image based on the text prompt.
 4. Once the image is generated, you can save it to your local machine by clicking on the "Download" button.
 
+ ### After clonning the project and if you want to run it, then you need to create a .env file under server and add credentials
+MONGODB_URL = "mongodb+srv://<Username>:<Password>@cluster0.6apneoo.mongodb.net/?retryWrites=true&w=majority"
+OPENAI_API_KEY = ""
+CLOUDINARY_CLOUD_NAME = ""
+CLOUDINARY_API_KEY = ""
+CLOUDINARY_API_SECRET=""
+
 ## Important Note:
-We need tokens 
+You need to purchase credits from openai dall-e to generate images or else you may face the below error :
+SyntaxError: Unexpected token 'B', "Billing ha"... is not valid JSON
