@@ -30,8 +30,7 @@ CLOUDINARY_API_KEY = "" ,
 CLOUDINARY_API_SECRET=""
 
 ## Important Note:
-You need to purchase credits from openai dall-e to generate images or else you may face the below error :
-SyntaxError: Unexpected token 'B', "Billing ha"... is not valid JSON
+You need to purchase credits from openai dall-e to generate images.
  
  ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request. Make sure to follow the existing coding style and guidelines.
